@@ -1,0 +1,104 @@
+header {
+	background-color:#123; 
+	color:#123; 
+	padding:5px;
+}
+
+img {
+    position: absolute;
+    left: 300px;
+    top: 30px;
+    z-index: 1;
+}
+
+body {
+	background-color: Gainsboro ; 
+	margin: 0; 
+}
+
+p { 
+	color: black; 
+	font-family: "Times New Roman"; 
+	font-size: 20px; 
+}
+
+
+
+#page{ 
+    margin: 0; 
+}
+
+#content{  
+	margin: 0px 284px;/**/
+	background: white;
+	padding: 30px;
+	clear: both;
+        text-align:justify;
+}
+#content,
+ul li a{
+       box-shadow: 0px 1px 1px #999; 
+}
+
+#footer{    
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
+	
+	
+/*================================================*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    margin-left:188px;
+    margin-top: 53px;
+    width: 64.5%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: DodgerBlue;
+}
+
+.active {
+    background-color: DodgerBlue;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.img {
+    float: right;
+
+
+
+
+
+
+
+
+
